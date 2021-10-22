@@ -1,0 +1,42 @@
+body {
+    padding-top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#board {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+}
+
+ul {
+    display: flex;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    display: flex;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-weight: bold;
+    border: 1px darkgrey solid;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
