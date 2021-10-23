@@ -1,10 +1,12 @@
 body {
-    padding-top: 100px;
+    padding-top: 20px;
     font-family: 'Courier New', Courier, monospace;
 }
 
 #container {
+    margin-top: 40px;
     display: flex;
+    height: 502px;
     justify-content: center;
 }
 
@@ -36,7 +38,57 @@ li {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 70px;
     font-weight: bold;
     text-align: center;
+    padding: 0;
+    margin: 0;
 }
+
+h2 {
+    padding: 0;
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+.background {
+    display: flex;
+    flex: 1;
+    z-index: -1;
+    overflow: hidden;
+    font-size: 550px;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.3);
+ }
+
+ .player {
+    display: flex;
+    flex:1;
+    position: relative;
+    justify-content: center;
+
+ }
+
+ button {
+     text-decoration: none;
+     padding: 10px 20px;
+     margin: 0 20px;
+     border: 4px black solid;
+     border-radius: 10px;
+     text-align: center;
+     font-size: 16px;
+ }
+
+ .name {
+    position: absolute;
+ }
+
+ #bottom {
+     margin: 20px 0;
+     padding: 0;
+     display: flex;
+     justify-content: center;
+ }

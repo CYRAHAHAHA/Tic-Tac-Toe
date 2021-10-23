@@ -10,24 +10,37 @@
 </head>
 <body>
     <h1 id="header">Tic Tac Toe</h1>
+    <h2 id="announcer">Press begin to start the game!</h2>
     <div id="container">
-    <div id="board">
-        <ul>
-            <li id="0"> </li>
-            <li id="1"> </li>
-            <li id="2"> </li>
-        </ul>
-        <ul>
-            <li id="3"> </li>
-            <li id="4"> </li>
-            <li id="5"> </li>
-        </ul>
-        <ul>
-            <li id="6"> </li>
-            <li id="7"> </li>
-            <li id="8"> </li>
-        </ul>
+        <div id='left' class='player'>
+            <div id='logoL' class="background">X</div>
+            <button id="playerX" class='name'>Click to enter name!</button>
+        </div>
+        <div id="board">
+            <ul>
+                <li id="0" class='spot'> </li>
+                <li id="1" class='spot'> </li>
+                <li id="2" class='spot'> </li>
+            </ul>
+            <ul>
+                <li id="3" class='spot'> </li>
+                <li id="4" class='spot'> </li>
+                <li id="5" class='spot'> </li>
+            </ul>
+            <ul>
+                <li id="6" class='spot'> </li>
+                <li id="7" class='spot'> </li>
+                <li id="8" class='spot'> </li>
+            </ul>
+        </div>
+        <div id='right' class='player'>
+            <div id='logoR' class="background">O</div>
+            <button id="playerO" class ='name'>Click to enter name!</button>
+        </div>
     </div>
-    </div>  
+    <div id="bottom">
+        <button id="start">Start game</button>
+        <button id="reset">Reset game</button>
+    </div>
 </body>
 </html>
